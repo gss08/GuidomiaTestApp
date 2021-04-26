@@ -5,4 +5,7 @@
 //  Created by GSS on 2021-04-26.
 //
 
-import Foundation
+import UIKit
+
+
+let orangeColor = UIColor(named:"Orange")

@@ -7,9 +7,8 @@
 
 import UIKit
 
-
+var appDelegate = UIApplication.shared.delegate as! AppDelegate
 let screenSize: CGRect = UIScreen.main.bounds
 let screenWidth = screenSize.width
 let screenHeight = screenSize.height
 
-let orangeColor = UIColor(named:"Orange")

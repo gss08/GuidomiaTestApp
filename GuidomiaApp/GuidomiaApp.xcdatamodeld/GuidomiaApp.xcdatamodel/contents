@@ -2,9 +2,9 @@
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D91" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="CarInfo" representedClassName="CarInfo" syncable="YES">
         <attribute name="consList" optional="YES" attributeType="Transformable" customClassName="[String]"/>
-        <attribute name="customerPrice" optional="YES" attributeType="String"/>
+        <attribute name="customerPrice" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="make" optional="YES" attributeType="String"/>
-        <attribute name="marketPrice" optional="YES" attributeType="String"/>
+        <attribute name="marketPrice" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="model" optional="YES" attributeType="String"/>
         <attribute name="prosList" optional="YES" attributeType="Transformable" customClassName="[String]"/>
         <attribute name="rating" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>

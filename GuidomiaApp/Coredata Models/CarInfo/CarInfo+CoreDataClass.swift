@@ -17,8 +17,8 @@ public class CarInfo: NSManagedObject, Codable {
         var container = encoder.container(keyedBy: CodingKeys.self)
         do {
             try container.encode(customerPrice, forKey: .customerPrice)
-            try container.encode(make , forKey: .make)
-            try container.encode(rating , forKey: .rating)
+            try container.encode(make, forKey: .make)
+            try container.encode(rating, forKey: .rating)
             try container.encode(model, forKey: .model)
             try container.encode(marketPrice , forKey: .marketPrice)
             try container.encode(consList , forKey: .consList)
@@ -42,11 +42,11 @@ public class CarInfo: NSManagedObject, Codable {
         let values = try decoder.container(keyedBy: CodingKeys.self)
         
         do {
-            self.customerPrice = try values.decode(String.self, forKey: .customerPrice)
+            self.customerPrice = try values.decode(Int16.self, forKey: .customerPrice)
             self.make  = try values.decode(String.self, forKey: .make)
             self.rating = try values.decode(Int32.self, forKey: .rating)
             self.model = try values.decode(String.self, forKey: .model)
-            self.marketPrice = try values.decode(String.self, forKey: .marketPrice)
+            self.marketPrice = try values.decode(Int16.self, forKey: .marketPrice)
             self.prosList = try values.decode([String].self, forKey: .prosList)
             self.consList = try values.decode([String].self, forKey: .consList)
         } catch {
@@ -55,13 +55,13 @@ public class CarInfo: NSManagedObject, Codable {
     }
     
     enum CodingKeys: String, CodingKey {
-        case customerPrice = "customerPrice"
-        case make = "make"
-        case rating = "rating"
-        case model = "model"
-        case marketPrice = "marketPrice"
-        case prosList = "prosList"
-        case consList = "consList"
+        case customerPrice = "CustomerPrice"
+        case make = "Make"
+        case rating = "Rating"
+        case model = "Model"
+        case marketPrice = "MarketPrice"
+        case prosList = "ProsList"
+        case consList = "ConsList"
         
     }
     

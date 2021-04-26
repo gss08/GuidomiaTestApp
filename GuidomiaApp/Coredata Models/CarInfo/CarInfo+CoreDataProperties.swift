@@ -16,11 +16,11 @@ extension CarInfo {
         return NSFetchRequest<CarInfo>(entityName: "CarInfo")
     }
 
-    @NSManaged public var customerPrice: String?
+    @NSManaged public var customerPrice: Int16
     @NSManaged public var make: String?
     @NSManaged public var rating: Int32
     @NSManaged public var model: String?
-    @NSManaged public var marketPrice: String?
+    @NSManaged public var marketPrice: Int16
     @NSManaged public var prosList: [String]?
     @NSManaged public var consList: [String]?
 
