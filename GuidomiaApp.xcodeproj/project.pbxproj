@@ -17,6 +17,14 @@
 		45E3936B2636658700409093 /* GuidomiaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E3936A2636658700409093 /* GuidomiaAppTests.swift */; };
 		45E393762636658700409093 /* GuidomiaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E393752636658700409093 /* GuidomiaAppUITests.swift */; };
 		45E3939E2636676500409093 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E3939D2636676500409093 /* HomeVM.swift */; };
+		45E393B226367A4600409093 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45E393B126367A4500409093 /* Colors.xcassets */; };
+		45E393BC2636820000409093 /* CarInfo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E393BA2636820000409093 /* CarInfo+CoreDataClass.swift */; };
+		45E393BD2636820000409093 /* CarInfo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E393BB2636820000409093 /* CarInfo+CoreDataProperties.swift */; };
+		45E393C92636840800409093 /* car_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 45E393C82636840800409093 /* car_list.json */; };
+		45E393D5263684A000409093 /* HeaderTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E393D4263684A000409093 /* HeaderTableCell.swift */; };
+		45E393DD263684D000409093 /* CarInfoUnexpandedTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E393DC263684D000409093 /* CarInfoUnexpandedTableCell.swift */; };
+		45E393E22636857400409093 /* FooterTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E393E12636857400409093 /* FooterTableCell.swift */; };
+		45E393EA26368E0A00409093 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E393E926368E0A00409093 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,14 @@
 		45E393752636658700409093 /* GuidomiaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidomiaAppUITests.swift; sourceTree = "<group>"; };
 		45E393772636658700409093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45E3939D2636676500409093 /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
+		45E393B126367A4500409093 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		45E393BA2636820000409093 /* CarInfo+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CarInfo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		45E393BB2636820000409093 /* CarInfo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CarInfo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		45E393C82636840800409093 /* car_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = car_list.json; sourceTree = "<group>"; };
+		45E393D4263684A000409093 /* HeaderTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableCell.swift; sourceTree = "<group>"; };
+		45E393DC263684D000409093 /* CarInfoUnexpandedTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarInfoUnexpandedTableCell.swift; sourceTree = "<group>"; };
+		45E393E12636857400409093 /* FooterTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterTableCell.swift; sourceTree = "<group>"; };
+		45E393E926368E0A00409093 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,14 +119,17 @@
 		45E3934F2636658600409093 /* GuidomiaApp */ = {
 			isa = PBXGroup;
 			children = (
+				45E393C7263683D700409093 /* Json */,
+				45E393B8263681E300409093 /* Coredata Models */,
+				45E393D32636848A00409093 /* Tablecells */,
 				45E393A8263667A100409093 /* Helpers */,
 				45E393952636673E00409093 /* Startup */,
 				45E3939C2636674F00409093 /* View Controllers */,
+				45E393A52636676A00409093 /* View Models */,
 				45E393562636658600409093 /* Main.storyboard */,
 				45E393A62636677700409093 /* Resources */,
 				45E393A9263667B300409093 /* Supporting Files */,
 				45E393592636658600409093 /* GuidomiaApp.xcdatamodeld */,
-				45E393A52636676A00409093 /* View Models */,
 			);
 			path = GuidomiaApp;
 			sourceTree = "<group>";
@@ -161,6 +180,7 @@
 		45E393A62636677700409093 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				45E393B126367A4500409093 /* Colors.xcassets */,
 				45E3935C2636658700409093 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -169,6 +189,7 @@
 		45E393A8263667A100409093 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				45E393E926368E0A00409093 /* Constants.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -180,6 +201,41 @@
 				45E393612636658700409093 /* Info.plist */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45E393B8263681E300409093 /* Coredata Models */ = {
+			isa = PBXGroup;
+			children = (
+				45E393B9263681EA00409093 /* CarInfo */,
+			);
+			path = "Coredata Models";
+			sourceTree = "<group>";
+		};
+		45E393B9263681EA00409093 /* CarInfo */ = {
+			isa = PBXGroup;
+			children = (
+				45E393BA2636820000409093 /* CarInfo+CoreDataClass.swift */,
+				45E393BB2636820000409093 /* CarInfo+CoreDataProperties.swift */,
+			);
+			path = CarInfo;
+			sourceTree = "<group>";
+		};
+		45E393C7263683D700409093 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				45E393C82636840800409093 /* car_list.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		45E393D32636848A00409093 /* Tablecells */ = {
+			isa = PBXGroup;
+			children = (
+				45E393D4263684A000409093 /* HeaderTableCell.swift */,
+				45E393DC263684D000409093 /* CarInfoUnexpandedTableCell.swift */,
+				45E393E12636857400409093 /* FooterTableCell.swift */,
+			);
+			path = Tablecells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,8 +342,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				45E393602636658700409093 /* LaunchScreen.storyboard in Resources */,
+				45E393B226367A4600409093 /* Colors.xcassets in Resources */,
 				45E3935D2636658700409093 /* Assets.xcassets in Resources */,
 				45E393582636658600409093 /* Main.storyboard in Resources */,
+				45E393C92636840800409093 /* car_list.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,10 +371,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				45E3935B2636658600409093 /* GuidomiaApp.xcdatamodeld in Sources */,
+				45E393EA26368E0A00409093 /* Constants.swift in Sources */,
+				45E393D5263684A000409093 /* HeaderTableCell.swift in Sources */,
 				45E3939E2636676500409093 /* HomeVM.swift in Sources */,
+				45E393DD263684D000409093 /* CarInfoUnexpandedTableCell.swift in Sources */,
 				45E393552636658600409093 /* HomeViewController.swift in Sources */,
+				45E393BD2636820000409093 /* CarInfo+CoreDataProperties.swift in Sources */,
 				45E393512636658600409093 /* AppDelegate.swift in Sources */,
+				45E393BC2636820000409093 /* CarInfo+CoreDataClass.swift in Sources */,
 				45E393532636658600409093 /* SceneDelegate.swift in Sources */,
+				45E393E22636857400409093 /* FooterTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +486,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -477,7 +541,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -493,7 +557,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GuidomiaApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/GuidomiaApp/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -501,7 +566,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.GuidomiaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -511,7 +576,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GuidomiaApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/GuidomiaApp/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -519,7 +585,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.GuidomiaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
