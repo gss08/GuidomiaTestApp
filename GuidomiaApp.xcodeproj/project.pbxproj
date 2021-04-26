@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45B40FE126371C7C00063E39 /* InspectableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B40FE026371C7C00063E39 /* InspectableView.swift */; };
+		45B40FE626371DD500063E39 /* ExpandableTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B40FE526371DD500063E39 /* ExpandableTableCell.swift */; };
 		45E393512636658600409093 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E393502636658600409093 /* AppDelegate.swift */; };
 		45E393532636658600409093 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E393522636658600409093 /* SceneDelegate.swift */; };
 		45E393552636658600409093 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E393542636658600409093 /* HomeViewController.swift */; };
@@ -47,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		45B40FE026371C7C00063E39 /* InspectableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectableView.swift; sourceTree = "<group>"; };
+		45B40FE526371DD500063E39 /* ExpandableTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableTableCell.swift; sourceTree = "<group>"; };
 		45E3934D2636658600409093 /* GuidomiaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuidomiaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45E393502636658600409093 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45E393522636658600409093 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -197,6 +201,7 @@
 			children = (
 				45E393E926368E0A00409093 /* Constants.swift */,
 				45E92B6A2636A99300566C11 /* Extensions.swift */,
+				45B40FE026371C7C00063E39 /* InspectableView.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -240,6 +245,7 @@
 			children = (
 				45E393D4263684A000409093 /* HeaderTableCell.swift */,
 				45E393DC263684D000409093 /* CarInfoUnexpandedTableCell.swift */,
+				45B40FE526371DD500063E39 /* ExpandableTableCell.swift */,
 			);
 			path = Tablecells;
 			sourceTree = "<group>";
@@ -391,8 +397,10 @@
 				45E393DD263684D000409093 /* CarInfoUnexpandedTableCell.swift in Sources */,
 				45E393552636658600409093 /* HomeViewController.swift in Sources */,
 				45E393BD2636820000409093 /* CarInfo+CoreDataProperties.swift in Sources */,
+				45B40FE626371DD500063E39 /* ExpandableTableCell.swift in Sources */,
 				45E92B632636A6CC00566C11 /* CarInfo_Base.swift in Sources */,
 				45E393512636658600409093 /* AppDelegate.swift in Sources */,
+				45B40FE126371C7C00063E39 /* InspectableView.swift in Sources */,
 				45E393BC2636820000409093 /* CarInfo+CoreDataClass.swift in Sources */,
 				45E393EF2636991000409093 /* Theme.swift in Sources */,
 				45E393532636658600409093 /* SceneDelegate.swift in Sources */,

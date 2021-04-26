@@ -25,6 +25,12 @@ class CarInfoUnexpandedTableCell: UITableViewCell {
     }
     
     //MARK: - Update the cell with the values from JSON
+    /**
+       Update the cell with the values from JSON
+     - Parameters :
+     - carInfo: contains values i.e. car make, model, price
+     */
+    
     func update(with carInfo: CarInfo_Base) -> Void {
         
         if let make = carInfo.make{
@@ -40,6 +46,9 @@ class CarInfoUnexpandedTableCell: UITableViewCell {
             let priceInString = Double(price).formatPoints(num: price)
             carPriceLabel.text = "Price : \(priceInString)"
         }
+        
+        /* Displays the rating based on the value
+         */
         displayRating(value: Int(carInfo.rating ?? 0))
         
     }

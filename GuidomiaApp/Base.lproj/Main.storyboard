@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="69v-eI-UnJ">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
@@ -15,34 +15,34 @@
             <objects>
                 <viewController storyboardIdentifier="HomeViewController" id="BYZ-38-t0r" customClass="HomeViewController" customModule="GuidomiaApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="867"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="hcP-fS-cvd">
-                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="hcP-fS-cvd">
+                                <rect key="frame" x="0.0" y="44" width="375" height="823"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="headerTableCell" id="ebt-25-hlq" customClass="HeaderTableCell" customModule="GuidomiaApp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="276.5"/>
+                                        <rect key="frame" x="0.0" y="28" width="375" height="250"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ebt-25-hlq" id="fIU-e4-675">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="276.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tacoma" translatesAutoresizingMaskIntoConstraints="NO" id="7kJ-KR-AhP">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="276.5"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="7kJ-KR-AhP" secondAttribute="height" multiplier="375:250" id="UBc-NW-WFL"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tacoma 2021" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vP7-BZ-pFs">
-                                                    <rect key="frame" x="15" y="189.5" width="384" height="48"/>
+                                                    <rect key="frame" x="15" y="163" width="345" height="48"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get your's now" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dAL-Zr-3eX">
-                                                    <rect key="frame" x="15" y="237.5" width="384" height="24"/>
+                                                    <rect key="frame" x="15" y="211" width="345" height="24"/>
                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -63,36 +63,36 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="carInfoUnexpandedTableCell" rowHeight="115" id="4T9-sv-v0i" customClass="CarInfoUnexpandedTableCell" customModule="GuidomiaApp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="304.5" width="414" height="115"/>
+                                        <rect key="frame" x="0.0" y="278" width="375" height="115"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4T9-sv-v0i" id="DLu-Jf-u7O">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="115"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="115"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9oZ-If-MNb">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="115"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="115"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Apline roadster" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xeR-j4-Mhi">
-                                                            <rect key="frame" x="179" y="15" width="220" height="33"/>
+                                                            <rect key="frame" x="165" y="15" width="195" height="33"/>
                                                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
                                                             <color key="textColor" name="TextColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price : 120k" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vok-Hc-uiE">
-                                                            <rect key="frame" x="179" y="48" width="220" height="19.5"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                            <rect key="frame" x="165" y="48" width="195" height="19.5"/>
+                                                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
                                                             <color key="textColor" name="TextColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Alpine_roadster" translatesAutoresizingMaskIntoConstraints="NO" id="Zi8-Xm-283">
-                                                            <rect key="frame" x="15" y="15" width="149" height="85"/>
+                                                            <rect key="frame" x="15" y="15" width="135" height="85"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" secondItem="Zi8-Xm-283" secondAttribute="height" multiplier="106:59" id="gvt-bT-kur"/>
                                                             </constraints>
                                                         </imageView>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YOH-7w-W8i">
-                                                            <rect key="frame" x="179" y="79.5" width="123" height="20.5"/>
+                                                            <rect key="frame" x="165" y="79.5" width="123" height="20.5"/>
                                                             <subviews>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4.5" translatesAutoresizingMaskIntoConstraints="NO" id="Y8a-gb-GFg">
                                                                     <rect key="frame" x="0.0" y="0.0" width="123" height="20.5"/>
@@ -176,6 +176,60 @@
                                             <outlet property="star5ImageView" destination="UeD-T4-4Ri" id="5r0-wS-aep"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="expandableTableCell" id="pik-Ao-F8u" customClass="ExpandableTableCell" customModule="GuidomiaApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="393" width="375" height="52.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pik-Ao-F8u" id="9WU-pD-Alt">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="52.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Pros :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QrE-zh-vtb">
+                                                    <rect key="frame" x="25" y="6" width="335" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                    <color key="textColor" name="TextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EX3-YT-lnp">
+                                                    <rect key="frame" x="35" y="35" width="8" height="8"/>
+                                                    <color key="backgroundColor" name="Orange"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="8" id="LFS-Nc-nJ2"/>
+                                                        <constraint firstAttribute="width" constant="8" id="pwv-8Z-fgn"/>
+                                                    </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="4"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4 wheel drive" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wdM-Of-sjx">
+                                                    <rect key="frame" x="51" y="31.5" width="302" height="16"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="wdM-Of-sjx" secondAttribute="bottom" constant="5" id="AI7-NG-MaH"/>
+                                                <constraint firstItem="QrE-zh-vtb" firstAttribute="leading" secondItem="9WU-pD-Alt" secondAttribute="leading" constant="25" id="NwG-be-zje"/>
+                                                <constraint firstItem="wdM-Of-sjx" firstAttribute="top" secondItem="QrE-zh-vtb" secondAttribute="bottom" constant="5" id="PYe-Ah-Az5"/>
+                                                <constraint firstAttribute="trailing" secondItem="QrE-zh-vtb" secondAttribute="trailing" constant="15" id="UdU-9q-wU9"/>
+                                                <constraint firstItem="wdM-Of-sjx" firstAttribute="leading" secondItem="EX3-YT-lnp" secondAttribute="trailing" constant="8" id="V1F-2c-Odm"/>
+                                                <constraint firstItem="QrE-zh-vtb" firstAttribute="top" secondItem="9WU-pD-Alt" secondAttribute="top" constant="6" id="WCT-zb-awi"/>
+                                                <constraint firstItem="EX3-YT-lnp" firstAttribute="top" secondItem="QrE-zh-vtb" secondAttribute="bottom" constant="8.5" id="mH9-hk-nMM"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="EX3-YT-lnp" secondAttribute="bottom" constant="9.5" id="suT-a3-H3g"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="wdM-Of-sjx" secondAttribute="trailing" constant="6" id="tug-Uh-yGX"/>
+                                                <constraint firstItem="EX3-YT-lnp" firstAttribute="leading" secondItem="QrE-zh-vtb" secondAttribute="leading" constant="10" id="xdz-eb-pPw"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" name="LightGray"/>
+                                        <connections>
+                                            <outlet property="proConsBottomConstraint" destination="AI7-NG-MaH" id="JFD-un-WWw"/>
+                                            <outlet property="proConsTopConstraint" destination="WCT-zb-awi" id="sdR-kk-EZh"/>
+                                            <outlet property="proConsValueLabel" destination="wdM-Of-sjx" id="Fud-X5-jnq"/>
+                                            <outlet property="prosConsHeaderLabel" destination="QrE-zh-vtb" id="etC-Jz-CA1"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </prototypes>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="Eg6-zo-4d9"/>
@@ -197,13 +251,14 @@
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </barButtonItem>
                     </navigationItem>
+                    <size key="freeformSize" width="375" height="867"/>
                     <connections>
                         <outlet property="tableView" destination="hcP-fS-cvd" id="FCf-h5-esj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1073.913043478261" y="136.14130434782609"/>
+            <point key="canvasLocation" x="1072.8" y="135.38230884557723"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="1Re-b5-Oou">
@@ -211,7 +266,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="69v-eI-UnJ" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="n09-Gi-nbV">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" name="Orange"/>
                         <textAttributes key="titleTextAttributes">
@@ -235,7 +290,7 @@
         <image name="Alpine_roadster" width="238" height="134"/>
         <image name="Tacoma" width="5472" height="3648"/>
         <image name="line.horizontal.3" catalog="system" width="128" height="64"/>
-        <image name="star.fill" catalog="system" width="128" height="116"/>
+        <image name="star.fill" catalog="system" width="32" height="32"/>
         <namedColor name="LightGray">
             <color red="0.83499997854232788" green="0.83499997854232788" blue="0.83499997854232788" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
