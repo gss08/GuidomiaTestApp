@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		459188FA263741B900E304BE /* PickerToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459188F9263741B900E304BE /* PickerToolbar.swift */; };
 		45B40FE126371C7C00063E39 /* InspectableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B40FE026371C7C00063E39 /* InspectableView.swift */; };
 		45B40FE626371DD500063E39 /* ExpandableTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B40FE526371DD500063E39 /* ExpandableTableCell.swift */; };
+		45B40FEE2637392C00063E39 /* FiltersTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B40FED2637392C00063E39 /* FiltersTableCell.swift */; };
 		45E393512636658600409093 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E393502636658600409093 /* AppDelegate.swift */; };
 		45E393532636658600409093 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E393522636658600409093 /* SceneDelegate.swift */; };
 		45E393552636658600409093 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E393542636658600409093 /* HomeViewController.swift */; };
@@ -49,8 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		459188F9263741B900E304BE /* PickerToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerToolbar.swift; sourceTree = "<group>"; };
 		45B40FE026371C7C00063E39 /* InspectableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectableView.swift; sourceTree = "<group>"; };
 		45B40FE526371DD500063E39 /* ExpandableTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableTableCell.swift; sourceTree = "<group>"; };
+		45B40FED2637392C00063E39 /* FiltersTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersTableCell.swift; sourceTree = "<group>"; };
 		45E3934D2636658600409093 /* GuidomiaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuidomiaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45E393502636658600409093 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45E393522636658600409093 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -202,6 +206,7 @@
 				45E393E926368E0A00409093 /* Constants.swift */,
 				45E92B6A2636A99300566C11 /* Extensions.swift */,
 				45B40FE026371C7C00063E39 /* InspectableView.swift */,
+				459188F9263741B900E304BE /* PickerToolbar.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -246,6 +251,7 @@
 				45E393D4263684A000409093 /* HeaderTableCell.swift */,
 				45E393DC263684D000409093 /* CarInfoUnexpandedTableCell.swift */,
 				45B40FE526371DD500063E39 /* ExpandableTableCell.swift */,
+				45B40FED2637392C00063E39 /* FiltersTableCell.swift */,
 			);
 			path = Tablecells;
 			sourceTree = "<group>";
@@ -392,12 +398,14 @@
 			files = (
 				45E3935B2636658600409093 /* GuidomiaApp.xcdatamodeld in Sources */,
 				45E393EA26368E0A00409093 /* Constants.swift in Sources */,
+				45B40FEE2637392C00063E39 /* FiltersTableCell.swift in Sources */,
 				45E393D5263684A000409093 /* HeaderTableCell.swift in Sources */,
 				45E3939E2636676500409093 /* HomeVM.swift in Sources */,
 				45E393DD263684D000409093 /* CarInfoUnexpandedTableCell.swift in Sources */,
 				45E393552636658600409093 /* HomeViewController.swift in Sources */,
 				45E393BD2636820000409093 /* CarInfo+CoreDataProperties.swift in Sources */,
 				45B40FE626371DD500063E39 /* ExpandableTableCell.swift in Sources */,
+				459188FA263741B900E304BE /* PickerToolbar.swift in Sources */,
 				45E92B632636A6CC00566C11 /* CarInfo_Base.swift in Sources */,
 				45E393512636658600409093 /* AppDelegate.swift in Sources */,
 				45B40FE126371C7C00063E39 /* InspectableView.swift in Sources */,

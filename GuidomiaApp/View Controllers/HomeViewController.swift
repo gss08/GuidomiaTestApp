@@ -24,6 +24,9 @@ class HomeViewController: UIViewController {
         /* Load data from JSON file
          */
         readJson()
+        
+        viewModel.pickerView.delegate = self
+        viewModel.pickerView.toolbarDelegate = self
     }
     
     /* Add navigation title to left navigation bar
@@ -40,8 +43,12 @@ class HomeViewController: UIViewController {
     func readJson(){
         if let carInfoArray = viewModel.loadJson(filename: "car_list"){
             viewModel.carInfoArray = carInfoArray
+            viewModel.backupCarInfoArray = carInfoArray
             tableView.reloadData()
         }
+    }
+    
+    @IBAction func menuButtonPressed(_ sender: UIBarButtonItem) {
     }
 }
 

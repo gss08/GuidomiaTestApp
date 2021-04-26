@@ -9,6 +9,8 @@ import UIKit
 
 extension Double {
     
+    /* Format the price
+     */
     func formatPoints(num: Double) ->String{
         let thousandNum = num/1000
         let millionNum = num/1000000
@@ -32,20 +34,13 @@ extension Double {
         }
         
     }
-    /// Rounds the double to decimal places value
+    
+    /*  Rounds the double to decimal places value
+     */
+    
     func roundToPlaces(places:Int) -> Double {
         let divisor = pow(10.0, Double(places))
         return (self * divisor).rounded() / divisor
     }
     
-}
-
-extension UITableView {
-    func removeSeparatorsOfEmptyCells() {
-        tableFooterView = UIView(frame: .zero)
-    }
-
-    func removeSeparatorsOfEmptyCellsAndLastCell() {
-        tableFooterView = UIView(frame: CGRect(origin: .zero, size: CGSize(width: 0, height: 1)))
-    }
 }
